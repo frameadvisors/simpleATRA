@@ -1,0 +1,64 @@
+#entity1	type 1	state 1	relation	entity2	type 2	state 2
+Developers	object	physical	requires	API	object	virtual
+Language Model Architecture	object	virtual	part of	Attention Mechanism	object	virtual
+API	object	virtual	instrument handles	Authentication Mechanisms	object	virtual
+Pre-processing Tools	object	virtual	instrument handles	Cleaning	process	virtual
+Deployment Environment	object	virtual	part of	Containerizing	process	virtual
+Training Data	object	virtual	requires	Data Augmentation Techniques	object	virtual
+Model	object	virtual	requires	Deep Learning Framework	object	virtual
+Deployment Environment	object	virtual	requires	Developers	object	physical
+Model	object	virtual	requires	Developers	object	physical
+Developers	object	physical	agent handles	System Integrating	process	virtual
+Feedback	object	virtual	requires	End-users	object	physical
+User Input	object	virtual	requires	End-users	object	physical
+Model Evaluating	process	virtual	requires	Feedback	object	virtual
+Inferencing	process	virtual	requires	Fine-tuned Model	object	virtual
+Model Evaluating	process	virtual	requires	Fine-tuned Model	object	virtual
+Fine-tuning	process	virtual	results in	Fine-tuned Model	object	virtual
+Fine-tuning	process	virtual	requires	Fine-tuning Data	object	virtual
+Pre-processing Tools	object	virtual	instrument handles	Formatting	process	virtual
+GPU/TPU Acceleration	object	physical	relates to	Hardware/Infrastructure	object	physical
+Cloud Computing Services	object	virtual	relates to	Hardware/Infrastructure	object	physical
+Distributed Computation	object	physical	relates to	Hardware/Infrastructure	object	physical
+Hardware/Infrastructure	object	physical	instrument handles	Training	process	virtual
+End-users	object	physical	agent handles	Inferencing	process	virtual
+Response	object	virtual	requires	Inferencing	process	virtual
+API	object	virtual	instrument handles	Model	object	virtual
+Training	process	virtual	requires	Language Model Architecture	object	virtual
+Fine-tuning	process	virtual	requires	Model	object	virtual
+Evaluation Metrics	object	virtual	requires	Model Evaluating	process	virtual
+Performance Tracking	process	virtual	requires	Monitoring and Logging Tools	object	virtual
+Deployment Environment	object	virtual	requires	Orchestration Tools	object	virtual
+Parameters	object	virtual	part of	Model	object	virtual
+Training	process	virtual	results in	Parameters	object	virtual
+Training Data	object	virtual	requires	Pre-processing Tools	object	virtual
+API	object	virtual	instrument handles	Quota Limiting	process	virtual
+API	object	virtual	instrument handles	Rate Limiting	process	virtual
+Model Evaluating	process	virtual	requires	Reference Data	object	virtual
+Language Model Architecture	object	virtual	requires	Researchers	object	physical
+Training Techniques	object	virtual	requires	Researchers	object	physical
+Training	process	virtual	requires	Training Techniques	object	virtual
+API	object	virtual	relates to	Deploying	process	virtual
+Training Data	object	virtual	requires	Text Corpus	object	virtual
+Token Embeddings	object	virtual	part of	Model	object	virtual
+Training	process	virtual	results in	Token Embeddings	object	virtual
+Pre-processing Tools	object	virtual	instrument handles	Tokenizing	process	virtual
+Training	process	virtual	requires	Training Data	object	virtual
+Language Model Architecture	object	virtual	relates to	Transformer Architecture	object	virtual
+Inferencing	process	virtual	requires	User Input	object	virtual
+Text Corpus	object	virtual	relates to	Words/Tokens	object	virtual
+Training	process	virtual	requires	Words/Tokens	object	virtual
+Vocabulary	object	virtual	relates to	Words/Tokens	object	virtual
+Attention Mechanism	object	virtual	part of	Deep Learning Framework	object	virtual
+Transformer Architecture	object	virtual	part of	Deep Learning Framework	object	virtual
+Deploying	process	virtual	requires	Deployment Environment	object	virtual
+Quota Limiting	process	virtual	part of	Resource Managing	process	virtual
+Rate Limiting	process	virtual	part of	Resource Managing	process	virtual
+Resource Managing	process	virtual	requires	Monitoring and Logging Tools	object	virtual
+Performance Tracking	process	virtual	part of	Resource Managing	process	virtual
+Training Data	object	virtual	requires	Tokenizing	process	virtual
+Training Data	object	virtual	requires	Formatting	process	virtual
+Training Data	object	virtual	requires	Cleaning	process	virtual
+Fine-tuning Data	object	virtual	requires	Tokenizing	process	virtual
+Fine-tuning Data	object	virtual	requires	Formatting	process	virtual
+Fine-tuning Data	object	virtual	requires	Cleaning	process	virtual
